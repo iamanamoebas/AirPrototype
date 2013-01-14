@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+  <filename>Air Prototype</filename>
+  <copyright>@lehic</copyright>
+  <description>Prototype of webapp that can be converted to an Adobe Air desktop app.The app loads data from a JSON file and renders it using Plates templating engine.</description>
+  <customUpdateUI>false</customUpdateUI>
+  <id>AirTool</id>
+  <version>1.0.0</version>
+  <initialWindow>
+    <content>index.html</content>
+    <height>600</height>
+    <width>960</width>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+  </initialWindow>
+  <icon>
+    <image128x128>icons/AIRApp_128.png</image128x128>
+    <image48x48>icons/AIRApp_48.png</image48x48>
+    <image32x32>icons/AIRApp_32.png</image32x32>
+    <image16x16>icons/AIRApp_16.png</image16x16>
+  </icon>
+</application>

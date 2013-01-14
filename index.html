@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Air Prototype</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+
+            <article class="content" data-loaded="false">
+
+                <section class="hero-unit">
+                    <h1>Air Prototype</h1>
+                    <p class="text-info">Prototype of webapp that can easily be converted to an Adobe Air desktop app.<br />
+                    The app loads data from a JSON file and renders it using Plates templating engine.</p>
+                    <p><button class="btn btn-primary js-btn-load">Load data</button></p>
+                </section>
+
+                <aside class="alert alert-success">
+                    <ol class="js-logs"></ol>
+                </aside>
+            </article>
+
+        </div>
+
+        <script id="tool-template" type="text/x-plates-template">
+            <h2 id="question"></h2>
+            <ul id="answers">
+                <li id="answer"></li>
+            </ul>
+        </script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.js"><\/script>')</script>
+
+        <script src="js/vendor/AIRIntrospector.js"></script>
+        <script src="js/vendor/AIRAliases.js"></script>
+
+        <script src="js/vendor/plates.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
